@@ -1,0 +1,11 @@
+<Files ~ "^\.ht">
+deny from all
+</Files>
+<Files ~ "\.(txt|log|csv)$">
+deny from all
+</Files>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^server\.api$ ca.php [L]
+RewriteRule ^client\.api?(.*)$ ca.php?%{QUERY_STRING} [L]
