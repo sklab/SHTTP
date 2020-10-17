@@ -1,5 +1,5 @@
-#### <span style="color: red">This project is retired. Now, You can get free SSL/TLS certificates. ex.) "Let's Encrypt" and more</span>
-=====
+#### ***This project is retired. Now, You can get free SSL/TLS certificates. ex.) "Let's Encrypt" and more***
+---
 
 SHTTP
 =====
